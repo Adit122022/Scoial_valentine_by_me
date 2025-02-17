@@ -14,8 +14,8 @@ const AppRoutes = () => {
     <Route path="/profile" element={<Profile />} />
     <Route path="/post-details/:postId" element={<PostDetails />} />
     {/* <Route path="/about" element={<About />} />
-    <Route path="/contact" element={<Contact />} />
-    <Route path="*" element={<NotFound />} /> */}
+    <Route path="/contact" element={<Contact />} />*/ }
+    <Route path="*" element={<NotFound />} /> 
   </Routes>
   
   </BrowserRouter>
